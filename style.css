@@ -1,102 +1,71 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
 body {
-    background-color: #f4f4f4;
-    padding: 20px;
+    margin: 0;
+    font-family: Arial;
+    background: #f4f4f4;
 }
 
-.container {
-    background-color: white;
-    max-width: 1000px;
-    margin: 0 auto;
-    min-height: 100vh;
-    padding: 20px;
-}
-
-.header-box {
-    background-color: #4682B4; 
-    padding: 40px 25px;
+/* Header */
+.header {
+    background: #4f79a7;
     color: white;
+    padding: 20px;
+}
+
+/* Jarak */
+.jarak {
+    padding: 10px;
+}
+
+/* Menu */
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* Content */
+.content {
+    overflow: hidden;
+}
+
+/* Kiri */
+.kiri {
+    width: 70%;
+    float: left;
+}
+
+/* Kanan */
+.kanan {
+    width: 30%;
+    float: left;
+}
+
+/* Box */
+.border {
+    background: white;
     margin-bottom: 10px;
 }
 
-.header-box h1 {
-    font-size: 22px;
-    font-weight: normal;
+/* Button */
+.btn {
+    padding: 5px 10px;
 }
 
-.navbar {
-    background-color: #4682B4;
-    padding: 12px 25px;
-    margin-bottom: 20px;
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.navbar a {
-    color: white;
+/* Link tanpa garis */
+.undecor {
     text-decoration: none;
-    font-size: 13px;
 }
 
-.main-content {
-    padding: 0 5px;
-}
-
-.main-content h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-.main-content p {
-    font-size: 14px;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.btn-more {
-    background-color: #EFEFEF;
-    border: 1px solid #767676;
-    padding: 2px 6px;
-    font-size: 11px;
-    cursor: pointer;
-    margin-bottom: 20px;
-    display: inline-block;
-}
-
-.category-section h3 {
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-.category-list {
-    list-style: none;
-    padding-left: 20px;
-    margin-top: 10px;
-}
-
-.category-list li {
-    margin-bottom: 8px;
-}
-
-.category-list a {
-    color: #0000FF; 
-    text-decoration: underline;
-    font-size: 13px;
-}
-
-footer {
-    margin-top: 30px;
-    font-size: 12px;
-    color: #444;
+/* Footer */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    clear: both;
 }
