@@ -2,76 +2,81 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 body {
-    padding: 10px;
-    background-color: #fff;
+    background-color: #f4f4f4;
+    padding: 20px;
 }
 
-.wrapper {
-    max-width: 800px;
+.container {
+    background-color: white;
+    max-width: 1000px;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 20px;
 }
 
-/* Kotak Biru untuk Header dan Nav */
-.blue-box {
-    background-color: #4A82B3; /* Warna biru sesuai gambar */
-    padding: 15px 20px;
-    margin-bottom: 10px;
+.header-box {
+    background-color: #4682B4; 
+    padding: 40px 25px;
     color: white;
+    margin-bottom: 10px;
 }
 
-.main-header {
-    padding: 40px 20px;
-}
-
-.main-header h1 {
-    font-size: 1.5rem;
+.header-box h1 {
+    font-size: 22px;
     font-weight: normal;
 }
 
-/* Navigasi */
 .navbar {
-    padding: 8px 20px;
+    background-color: #4682B4;
+    padding: 12px 25px;
+    margin-bottom: 20px;
 }
 
 .navbar ul {
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .navbar a {
     color: white;
     text-decoration: none;
-    font-size: 0.85rem;
+    font-size: 13px;
 }
 
-/* Bagian Konten */
-.content {
-    padding: 10px 5px;
+.main-content {
+    padding: 0 5px;
 }
 
-h3 {
-    font-size: 1rem;
-    margin-bottom: 5px;
+.main-content h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
-.post-preview p {
-    font-size: 0.9rem;
+.main-content p {
+    font-size: 14px;
+    color: #333;
     margin-bottom: 10px;
 }
 
 .btn-more {
-    font-size: 0.75rem;
-    padding: 2px 4px;
+    background-color: #EFEFEF;
+    border: 1px solid #767676;
+    padding: 2px 6px;
+    font-size: 11px;
     cursor: pointer;
+    margin-bottom: 20px;
+    display: inline-block;
 }
 
-/* Kategori */
-.category-section {
-    margin-top: 20px;
+.category-section h3 {
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 .category-list {
@@ -81,18 +86,17 @@ h3 {
 }
 
 .category-list li {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .category-list a {
-    color: blue;
+    color: #0000FF; 
     text-decoration: underline;
-    font-size: 0.9rem;
+    font-size: 13px;
 }
 
-/* Footer */
 footer {
-    margin-top: 20px;
-    font-size: 0.8rem;
-    color: #333;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #444;
 }
