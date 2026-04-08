@@ -1,32 +1,98 @@
-body {
-    font-family: Arial;
-    background: #eaeaea;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-/* Header */
-.header {
-    background: #4f79a7;
+body {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.wrapper {
+    max-width: 800px;
+}
+
+/* Kotak Biru untuk Header dan Nav */
+.blue-box {
+    background-color: #4A82B3; /* Warna biru sesuai gambar */
+    padding: 15px 20px;
+    margin-bottom: 10px;
     color: white;
-    text-align: center;
-    padding: 20px;
 }
 
-/* Semua dibuat vertikal (default) */
-.menu, .content, .sidebar {
-    padding: 15px;
+.main-header {
+    padding: 40px 20px;
 }
 
-/* Menu */
-.menu ul {
+.main-header h1 {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+/* Navigasi */
+.navbar {
+    padding: 8px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+/* Bagian Konten */
+.content {
+    padding: 10px 5px;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.post-preview p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.btn-more {
+    font-size: 0.75rem;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+
+/* Kategori */
+.category-section {
+    margin-top: 20px;
+}
+
+.category-list {
+    list-style: none;
     padding-left: 20px;
+    margin-top: 10px;
 }
 
-.menu ul li {
-    margin: 8px 0;
+.category-list li {
+    margin-bottom: 5px;
 }
 
-/* Button */
-button {
-    margin-bottom: 20px;
+.category-list a {
+    color: blue;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #333;
 }
