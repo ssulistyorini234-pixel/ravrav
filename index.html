@@ -2,42 +2,50 @@
 <html lang="id">
 <head>
     <meta charset="UTF-8">
-    <title>Belajar Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Github</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="header">
-        <h2>Belajar Membuat Website dengan HTML , CSS dan Layout</h2>
-    </div>
+    <div class="wrapper">
+        <header class="blue-box main-header">
+            <h1>Belajar Github</h1>
+        </header>
 
-    <div class="menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
+        <nav class="blue-box navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
 
-    <div class="content">
-        <h3>HTML</h3>
-        <p>HTML atau HyperText Markup Language merupakan sebuah bahasa markah untuk membuat halaman web</p>
-        <button>Selengkapnya...</button>
+        <main class="content">
+            <section class="post-preview">
+                <h3>HTML</h3>
+                <p>HTML atau HyperText Markup Language...</p>
+                <button class="btn-more">Selengkapnya....</button>
+            </section>
 
-        <h3>CSS</h3>
-        <p>CSS atau Cascading StyleSheet adalah bahasa yang digunakan untuk mengatur tampilan website</p>
-        <button>Selengkapnya...</button>
-    </div>
+            <section class="category-section">
+                <h3>Category</h3>
+                <ul class="category-list">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">NO CSS</a></li>
+                    <li><a href="#">BOOTSTRAP</a></li>
+                    <li><a href="#">PHP</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">Python</a></li>
+                    <li><a href="#">Javascript</a></li>
+                </ul>
+            </section>
+        </main>
 
-    <div class="sidebar">
-        <h3>CATEGORY</h3>
-        <ul>
-            <li><a href="#">HTML</a></li>
-            <li><a href="#">CSS</a></li>
-            <li><a href="#">BOOTSTRAP</a></li>
-            <li><a href="#">PHP</a></li>
-        </ul>
+        <footer>
+            <p>Copyright @2026 DELAYOTA all reserved</p>
+        </footer>
     </div>
 
 </body>
