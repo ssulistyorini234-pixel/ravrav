@@ -12,12 +12,12 @@ body {
     padding: 20px;
 }
 
-/* Menu (kiri) */
-.menu {
-    width: 20%;
-    float: left;
+/* Semua dibuat vertikal (default) */
+.menu, .content, .sidebar {
+    padding: 15px;
 }
 
+/* Menu */
 .menu ul {
     padding-left: 20px;
 }
@@ -26,18 +26,7 @@ body {
     margin: 8px 0;
 }
 
-/* Content (tengah) */
-.content {
-    width: 50%;
-    float: left;
-}
-
-/* Sidebar (kanan) */
-.sidebar {
-    width: 30%;
-    float: left;
-}
-
+/* Button */
 button {
     margin-bottom: 20px;
 }
