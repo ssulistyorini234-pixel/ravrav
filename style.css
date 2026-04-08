@@ -1,56 +1,73 @@
-<div class="header">
-     <div class="jarak">
-    <h2>Belajar Membuat Layout dengan HTML dan CSS</h2>
-  </div>
-<head>
-     .jarak{padding:0 2pc;}
-<div class="menu">
-         <ul>
-                 <li><a href="index.html">Home</a></li>
-                 <li><a href="about.html">About</a></li>
-                 <li><a href="#">Blog</a></li>
-                 <li><a href="#">Contact<a></li>
-         </ul>
-</div>
-.menu{
-     background-color:#417aa8;
-     height:50px;
-     line-height:50px;
-     position:relative;
-     width:90%;
-     margin:0 auto;
-     padding:0 auto;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaeaea;
 }
+
+/* Header */
+.header {
+    background-color: #4f79a7;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Container utama */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Menu kiri */
+.menu {
+    width: 20%;
+}
+
 .menu ul {
-      list-style:none;
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.menu ul li {
+    margin: 8px 0;
 }
 
 .menu ul li a {
-     float:left;
-     width:70px;
-     display:block;
-     text-align:center;
-     color:#FFF;
-     text-decoration:none;
-}
-.menu ul li a:hover {
-     background-color:#4b88bb;
-     display:block;
+    color: blue;
+    text-decoration: underline;
 }
 
-body{
-  background:#f3f3f3;
-  color:#333;
-  width:100%;
-  font-family:sans-serif;
-  margin:0 auto;
+/* Konten */
+.content {
+    width: 55%;
+    padding: 0 20px;
 }
 
-.header{
-   width:90%;
-   margin:auto;
-   height:120px;
-   line-height:120px;
-   background:#417aa8;
-   color:#fff;
+.content h2 {
+    margin-top: 10px;
+}
+
+button {
+    font-size: 12px;
+    padding: 3px 8px;
+    margin-bottom: 20px;
+}
+
+/* Sidebar kanan */
+.sidebar {
+    width: 25%;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 8px 0;
+}
+
+.sidebar ul li a {
+    color: blue;
+    text-decoration: underline;
 }
