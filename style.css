@@ -1,71 +1,91 @@
-body {
-    margin: 0;
-    font-family: Arial;
-    background: #f4f4f4;
+body{
+    background:#f3f3f3;
+    color:#333;
+    width:100%;
+    font-family:sans-serif;
+    margin:0 auto;
 }
 
-/* Header */
-.header {
-    background: #4f79a7;
-    color: white;
-    padding: 20px;
+/* JARAK */
+.jarak{
+    padding:0 20px;
 }
 
-/* Jarak */
-.jarak {
-    padding: 10px;
+/* HEADER */
+.header{
+    width:90%;
+    margin:auto;
+    height:120px;
+    line-height:120px;
+    background:#417aa8;
+    color:#fff;
 }
 
-/* Menu */
-.menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 10px;
+/* MENU */
+.menu{
+    width:90%;
+    margin:auto;
+    background:#417aa8;
+    padding:10px 0;
 }
 
-.menu ul li {
-    display: inline;
-    margin-right: 15px;
+.menu a{
+    color:white;
+    margin-right:20px;
+    text-decoration:none;
 }
 
-/* Content */
-.content {
-    overflow: hidden;
+/* CONTENT */
+.content{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+    padding:10px 0;
 }
 
-/* Kiri */
-.kiri {
-    width: 70%;
-    float: left;
+/* KIRI */
+.kiri{
+    width:70%;
+    float:left;
 }
 
-/* Kanan */
-.kanan {
-    width: 30%;
-    float: left;
+/* KANAN */
+.kanan{
+    width:30%;
+    float:left;
 }
 
-/* Box */
-.border {
-    background: white;
-    margin-bottom: 10px;
+/* BOX */
+.border{
+    border:2px solid #4887b9;
+    margin-top:10px;
+    padding:15px;
+    background:#fff;
 }
 
-/* Button */
-.btn {
-    padding: 5px 10px;
+/* LINK */
+.undecor{
+    text-decoration:none;
+    color:#333;
 }
 
-/* Link tanpa garis */
-.undecor {
-    text-decoration: none;
+/* BUTTON */
+.btn{
+    background:#417aa8;
+    color:white;
+    border:none;
+    padding:8px;
 }
 
-/* Footer */
-.footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    clear: both;
+/* FOOTER */
+.footer{
+    width:90%;
+    margin:auto;
+    height:40px;
+    line-height:40px;
+    background:#417aa8;
+    color:#fff;
+    margin-top:10px;
+    text-align:center;
+    clear:both;
 }
