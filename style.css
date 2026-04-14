@@ -1,12 +1,11 @@
 body{
     background:#f3f3f3;
     color:#333;
-    width:100%;
     font-family:sans-serif;
-    margin:0 auto;
+    margin:0;
 }
 
-/* JARAK */
+/* jarak kiri kanan */
 .jarak{
     padding:0 20px;
 }
@@ -30,8 +29,9 @@ body{
 }
 
 .menu a{
+    display:inline-block;
     color:white;
-    margin-right:20px;
+    margin:0 15px;
     text-decoration:none;
 }
 
@@ -59,7 +59,7 @@ body{
 .border{
     border:2px solid #4887b9;
     margin-top:10px;
-    padding:15px;
+    padding:20px;
     background:#fff;
 }
 
@@ -74,7 +74,7 @@ body{
     background:#417aa8;
     color:white;
     border:none;
-    padding:8px;
+    padding:8px 12px;
 }
 
 /* FOOTER */
@@ -85,7 +85,7 @@ body{
     line-height:40px;
     background:#417aa8;
     color:#fff;
-    margin-top:10px;
     text-align:center;
+    margin-top:10px;
     clear:both;
 }
