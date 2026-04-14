@@ -1,37 +1,29 @@
 body{
     background:#f3f3f3;
-    color:#333;
     font-family:sans-serif;
     margin:0;
-}
-
-/* jarak kiri kanan */
-.jarak{
-    padding:0 20px;
 }
 
 /* HEADER */
 .header{
     width:90%;
-    margin:auto;
-    height:120px;
-    line-height:120px;
+    margin:20px auto 10px auto;
     background:#417aa8;
-    color:#fff;
+    color:white;
+    padding:20px;
 }
 
 /* MENU */
 .menu{
     width:90%;
-    margin:auto;
+    margin:0 auto 20px auto;
     background:#417aa8;
-    padding:10px 0;
+    padding:10px;
 }
 
 .menu a{
-    display:inline-block;
     color:white;
-    margin:0 15px;
+    margin-right:20px;
     text-decoration:none;
 }
 
@@ -39,53 +31,27 @@ body{
 .content{
     width:90%;
     margin:auto;
-    overflow:hidden;
-    padding:10px 0;
-}
-
-/* KIRI */
-.kiri{
-    width:70%;
-    float:left;
-}
-
-/* KANAN */
-.kanan{
-    width:30%;
-    float:left;
-}
-
-/* BOX */
-.border{
-    border:2px solid #4887b9;
-    margin-top:10px;
+    background:white;
     padding:20px;
-    background:#fff;
-}
-
-/* LINK */
-.undecor{
-    text-decoration:none;
-    color:#333;
 }
 
 /* BUTTON */
-.btn{
+button{
     background:#417aa8;
     color:white;
     border:none;
     padding:8px 12px;
+    cursor:pointer;
 }
 
-/* FOOTER */
-.footer{
-    width:90%;
-    margin:auto;
-    height:40px;
-    line-height:40px;
-    background:#417aa8;
-    color:#fff;
-    text-align:center;
-    margin-top:10px;
-    clear:both;
+/* CATEGORY */
+.kategori{
+    margin-left:15px; /* agak masuk dikit */
+}
+
+.kategori a{
+    display:block;
+    margin:5px 0;
+    text-decoration:none;
+    color:#333;
 }
