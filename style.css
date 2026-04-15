@@ -26,14 +26,13 @@ body{
     color:white;
     margin-right:15px;
     text-decoration:none;
-    font-size:14px;
 }
 
 /* CONTENT */
 .content{
     width:90%;
     margin:20px auto;
-    overflow:hidden;
+    overflow:hidden; /* WAJIB biar sejajar */
 }
 
 /* KIRI */
@@ -42,9 +41,15 @@ body{
     float:left;
 }
 
-/* BOX */
+/* KANAN */
+.kanan{
+    width:30%;
+    float:right;
+}
+
+/* KOTAK */
 .border{
-    border:1px solid #999;
+    border:2px solid #999; /* ini bikin kotak */
     padding:15px;
     margin-bottom:15px;
     background:white;
@@ -53,26 +58,12 @@ body{
 /* BUTTON */
 .btn{
     font-size:12px;
-    padding:3px 6px;
+    padding:5px 8px;
 }
 
-/* KANAN */
-.kanan{
-    width:30%;
-    float:right;
-}
-
-.kanan h3{
-    margin-bottom:5px;
-}
-
-.kanan hr{
-    border:0;
-    border-top:1px solid #ccc;
-}
-
+/* CATEGORY */
 .kanan a{
-    display:block;
+    display:block; /* biar turun ke bawah */
     margin:6px 0;
     color:#999;
     text-decoration:none;
