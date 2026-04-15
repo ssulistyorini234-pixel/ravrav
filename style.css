@@ -8,30 +8,32 @@ body{
 .header{
     width:90%;
     margin:20px auto 10px auto;
-    background:#417aa8;
+    background:#2f6f7f;
     color:white;
     padding:20px;
+    font-weight:bold;
 }
 
 /* MENU */
 .menu{
     width:90%;
-    margin:0 auto 20px auto;
-    background:#417aa8;
-    padding:10px;
+    margin:auto;
+    background:#2f6f7f;
+    padding:8px;
 }
 
 .menu a{
     color:white;
-    margin-right:20px;
+    margin-right:15px;
     text-decoration:none;
+    font-size:14px;
 }
 
 /* CONTENT */
 .content{
     width:90%;
-    margin:auto;
-    overflow:hidden; /* penting */
+    margin:20px auto;
+    overflow:hidden;
 }
 
 /* KIRI */
@@ -40,38 +42,47 @@ body{
     float:left;
 }
 
+/* BOX */
+.border{
+    border:1px solid #999;
+    padding:15px;
+    margin-bottom:15px;
+    background:white;
+}
+
+/* BUTTON */
+.btn{
+    font-size:12px;
+    padding:3px 6px;
+}
+
 /* KANAN */
 .kanan{
     width:30%;
     float:right;
 }
 
-/* BOX */
-.border{
-    border:2px solid #4887b9;
-    padding:15px;
-    background:white;
+.kanan h3{
+    margin-bottom:5px;
 }
 
-/* LINK */
-.undecor{
+.kanan hr{
+    border:0;
+    border-top:1px solid #ccc;
+}
+
+.kanan a{
+    display:block;
+    margin:6px 0;
+    color:#999;
     text-decoration:none;
-    color:#333;
-}
-
-/* BUTTON */
-.btn{
-    background:#417aa8;
-    color:white;
-    border:none;
-    padding:8px 12px;
 }
 
 /* FOOTER */
 .footer{
     width:90%;
     margin:10px auto;
-    background:#417aa8;
+    background:#2f6f7f;
     color:white;
     text-align:center;
     padding:10px;
