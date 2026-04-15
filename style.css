@@ -31,27 +31,49 @@ body{
 .content{
     width:90%;
     margin:auto;
+    overflow:hidden; /* penting */
+}
+
+/* KIRI */
+.kiri{
+    width:65%;
+    float:left;
+}
+
+/* KANAN */
+.kanan{
+    width:30%;
+    float:right;
+}
+
+/* BOX */
+.border{
+    border:2px solid #4887b9;
+    padding:15px;
     background:white;
-    padding:20px;
+}
+
+/* LINK */
+.undecor{
+    text-decoration:none;
+    color:#333;
 }
 
 /* BUTTON */
-button{
+.btn{
     background:#417aa8;
     color:white;
     border:none;
     padding:8px 12px;
-    cursor:pointer;
 }
 
-/* CATEGORY */
-.kategori{
-    margin-left:15px; /* agak masuk dikit */
-}
-
-.kategori a{
-    display:block;
-    margin:5px 0;
-    text-decoration:none;
-    color:#333;
+/* FOOTER */
+.footer{
+    width:90%;
+    margin:10px auto;
+    background:#417aa8;
+    color:white;
+    text-align:center;
+    padding:10px;
+    clear:both;
 }
